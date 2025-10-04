@@ -52,7 +52,7 @@ import CartButton from '../components/CartButton';
 // ];
 
 
-function page() {
+function Page() {
     const [products, setProducts] = useState([]);
     const [categories, setCategories] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -253,4 +253,4 @@ function page() {
     )
 }
 
-export default page
+export default Page

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Heading from '../components/Heading'
 
-function page() {
+function Page() {
     return (
         <div>
             <section className="hero-section h-[778px] overflow-hidden">
@@ -137,4 +137,4 @@ function page() {
     )
 }
 
-export default page
+export default Page

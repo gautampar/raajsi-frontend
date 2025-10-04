@@ -18,7 +18,7 @@ const blogs = [
   },
 ];
 
-function page() {
+function Page() {
     return (
         <div>
             <section className="hero-section h-[778px] overflow-hidden">
@@ -70,4 +70,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
