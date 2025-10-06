@@ -80,7 +80,6 @@ export const addToWishlist = async (productId, varientId = "") => {
 
     return response.data;
   } catch (error) {
-    console.error("Error adding to wishlist:", error);
     throw error.response?.data || error.message;
   }
 };
