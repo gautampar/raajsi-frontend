@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://backend-orpin-nu-20.vercel.app/",
+  baseURL: "https://backend-orpin-nu-20.vercel.app",
+  withCredentials: true,          // important for cookie auth
   headers: {
     "Content-Type": "application/json",
   },
